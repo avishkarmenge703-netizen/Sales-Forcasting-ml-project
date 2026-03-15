@@ -186,6 +186,25 @@
             background: #14a85a;
             transform: scale(1.05);
         }
+        .btn-streamlit {
+            background: #ff4b4b;
+            color: white;
+            border: none;
+            padding: 16px 38px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: 0.3s;
+            box-shadow: 0 10px 30px -10px #ff4b4b;
+        }
+        .btn-streamlit:hover {
+            background: #e03e3e;
+            transform: scale(1.05);
+        }
         section {
             margin: 120px 0;
         }
@@ -387,6 +406,26 @@
             font-size: 2rem;
             color: #ffd700;
         }
+        /* Streamlit Section */
+        .streamlit-section {
+            text-align: center;
+            padding: 80px 40px;
+            border-radius: 60px;
+            background: linear-gradient(135deg, rgba(255,75,75,0.1), rgba(255,75,75,0.05));
+            border: 1px solid rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+        }
+        .streamlit-section h2 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        .streamlit-section p {
+            font-size: 1.2rem;
+            color: #c0c0d0;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
         .footer {
             border-top: 1px solid rgba(255,255,255,0.05);
             padding: 50px 0;
@@ -422,7 +461,7 @@
     <canvas id="bg"></canvas>
     
     <!-- Floating Fiverr Button -->
-    <a href="https://www.fiverr.com/yourusername" target="_blank" class="floating-fiverr">
+    <a href="https://www.fiverr.com/s/xXBEwyQ" target="_blank" class="floating-fiverr">
         <i class="fab fa-fiverr"></i> Hire me on Fiverr
     </a>
 
@@ -548,12 +587,28 @@
             </div>
         </section>
 
+        <!-- Streamlit App Section -->
+        <section data-aos="fade-up">
+            <div class="streamlit-section">
+                <h2><i class="fas fa-rocket" style="color: #ff4b4b;"></i> Try the Full Streamlit App</h2>
+                <p>Experience the complete sales forecasting tool – input your own data, adjust features, and see predictions in real time. The app is deployed on Streamlit Cloud and ready for you to test.</p>
+                <a href="https://your-streamlit-app-url.streamlit.app" target="_blank" class="btn-streamlit">
+                    <i class="fas fa-external-link-alt"></i> Launch Streamlit App
+                </a>
+                <p style="margin-top: 30px; color: #8a8a9e; font-size: 0.9rem;">
+                    <i class="fas fa-info-circle"></i> Don't have a deployed app yet? 
+                    <a href="https://streamlit.io/cloud" target="_blank" style="color: #ff4b4b; text-decoration: none;">Deploy for free on Streamlit Cloud</a> 
+                    and replace this link.
+                </p>
+            </div>
+        </section>
+
         <!-- Persuasive Hire Section -->
         <section data-aos="fade-up">
             <div class="hire-section">
                 <h2>Ready to boost your sales with AI?</h2>
                 <p>I'll build a custom forecasting model tailored to your business data. Join 50+ happy clients who increased revenue and optimized inventory.</p>
-                <a href="https://www.fiverr.com/yourusername" target="_blank" class="btn-fiverr">
+                <a href="https://www.fiverr.com/s/xXBEwyQ" target="_blank" class="btn-fiverr">
                     <i class="fab fa-fiverr"></i> Hire me on Fiverr
                 </a>
                 <div class="testimonial-badge">
@@ -590,8 +645,8 @@
             <div class="logo">Avishkar Menge</div>
             <div class="footer-links">
                 <a href="https://github.com/avishkarmenge703-netizen" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                <a href="https://www.linkedin.com/in/avishkar-menge-880686311/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                <a href="https://www.fiverr.com/s/WERoN1Q" target="_blank" class="fiverr-link"><i class="fab fa-fiverr"></i> Fiverr</a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://www.fiverr.com/yourusername" target="_blank" class="fiverr-link"><i class="fab fa-fiverr"></i> Fiverr</a>
             </div>
             <div style="color: #5a5a70;">© 2026 | MIT Licensed</div>
         </footer>
