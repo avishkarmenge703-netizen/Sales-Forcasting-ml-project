@@ -82,3 +82,18 @@ sales-forecasting-ml-project
 ├── requirements.txt # Python dependencies
 ├── LICENSE # MIT License
 └── README.md # This file
+
+
+## 🌐 Web Application
+
+A simple web application built with **Streamlit** allows users to:
+- Input product details (store, promotion status, holiday indicator, etc.)
+- Predict future sales instantly
+- Visualize demand trends over time
+
+This demonstrates how machine learning models can be deployed as accessible business tools.
+
+**To run the app locally:**
+```bash
+pip install -r requirements.txt
+streamlit run app/app.py
