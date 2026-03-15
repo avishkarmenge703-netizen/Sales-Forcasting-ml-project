@@ -58,3 +58,27 @@ The model also generates multi-step forecasts for future periods (e.g., next 30 
 - **Streamlit** – web application
 
 ## 📁 Project Structure
+
+sales-forecasting-ml-project
+│
+├── data
+│ ├── sales_dataset.csv # Full dataset (not included in repo due to size)
+│ └── sample_sales_data.csv # Small sample for testing/understanding
+│
+├── notebook
+│ └── sales_forecasting.ipynb # Complete analysis & model training
+│
+├── model
+│ └── sales_model.pkl # Trained model (saved via pickle)
+│
+├── app
+│ └── app.py # Streamlit application
+│
+├── images
+│ ├── actual_vs_predicted_sales_test_set.png
+│ ├── feature_importances.png
+│ └── historical_vs_predicted_sales.png
+│
+├── requirements.txt # Python dependencies
+├── LICENSE # MIT License
+└── README.md # This file
